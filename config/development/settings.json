@@ -1,6 +1,10 @@
 {
   "public": {
+    "name": "snafoo",
+    "version": "0.0.1",
+    "description": "a modern project management app"
   },
 
-  "sample": "value"
+  "githubClientId": "e2a39b211c10587f9429",
+  "githubClientSecret": "6d7e102f3e5c3ed1a8370c3a340f56fce3c4f8a0"
 }
