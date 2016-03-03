@@ -1,5 +1,5 @@
 Router.configure({
-  layoutTemplate: 'MasterLayout',
+  layoutTemplate: 'layoutMaster',
   loadingTemplate: 'Loading',
   notFoundTemplate: 'NotFound'
 });
@@ -7,6 +7,6 @@ Router.configure({
 
 Router.route('/', {
   name: 'home',
-  controller: 'HomeController',
+  controller: 'staticHomeController',
   where: 'client'
 });
