@@ -1,6 +1,6 @@
 Tasks = new Mongo.Collection('tasks');
 
-Tasks.attachSchema(new SimpleSchema({
+Tasks.attachSchema(new SimpleSchema( {
   title: {
     type: String,
     label: "Title",
@@ -40,12 +40,14 @@ Tasks.attachSchema(new SimpleSchema({
     type: String,
     // TODO: should be a foreign key reference to the user table
     autoValue: function() {
-      return this.userId
+    return this.userId
     }
   },
   createdAt: {
     type: Date,
-    autoValue: Date()
+    autoValue: function () {
+      return new Date();
+    }
   }
 }));
 
