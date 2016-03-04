@@ -1,3 +1,5 @@
+[ ![Codeship Status for kinshuksunil/snafoo](https://codeship.com/projects/784e0f10-c399-0133-0432-1eafc0b37bfe/status?branch=dev)](https://codeship.com/projects/138125)
+
 # snafoo
 modern project management
 
